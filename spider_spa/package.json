@@ -1,0 +1,16 @@
+{
+  "name": "spider_spa",
+  "version": "1.0.0",
+  "description": "什么值得买：请求返回整个页面的html,然后浏览器渲染页面\r 掘金：返回小部分html，后续前端 通过ajax请求完成 构造出来的页面",
+  "main": "form-submit.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "puppeteer": "^1.19.0"
+  }
+}
